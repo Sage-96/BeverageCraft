@@ -1,0 +1,13 @@
+{
+  "itemGroup.beveragecraft": "Example Mod Tab",
+  "block.beveragecraft.example_block": "Example Block",
+  "item.beveragecraft.example_item": "Example Item",
+
+  "beveragecraft.configuration.title": "BeverageCraft Configs",
+  "beveragecraft.configuration.section.beveragecraft.common.toml": "BeverageCraft Configs",
+  "beveragecraft.configuration.section.beveragecraft.common.toml.title": "BeverageCraft Configs",
+  "beveragecraft.configuration.items": "Item List",
+  "beveragecraft.configuration.logDirtBlock": "Log Dirt Block",
+  "beveragecraft.configuration.magicNumberIntroduction": "Magic Number Text",
+  "beveragecraft.configuration.magicNumber": "Magic Number"
+}
