@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "beveragecraft:gin"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2trees:cherryitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:aviation",
+    "count": 1
+  }
+}

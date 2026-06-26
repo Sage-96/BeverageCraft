@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:amaro"},
+    {"item": "beveragecraft:fortified_wine"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:americano_cocktail",
+    "count": 1
+  }
+}

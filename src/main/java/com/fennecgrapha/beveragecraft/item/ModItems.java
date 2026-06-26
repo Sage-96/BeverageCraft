@@ -23,8 +23,15 @@ public class ModItems {
     public static final DeferredItem<Item> STILL = ITEMS.register("distilling_flask",()->new ModCraftingTool(
             new Item.Properties().stacksTo(1))
     );
+    public static final DeferredItem<Item> MIXER = ITEMS.register("drink_mixer",()->new ModCraftingTool(
+            new Item.Properties().stacksTo(1))
+    );
+
 
     public static final DeferredItem<Item> YEAST = ITEMS.register("yeast",()->new Item(
+            new Item.Properties())
+    );
+    public static final DeferredItem<Item> CRUSHED_ICE = ITEMS.register("crushed_ice",()->new Item(
             new Item.Properties())
     );
 
@@ -44,7 +51,9 @@ public class ModItems {
     public static final DeferredItem<Item> SPICE_SYRUP = ITEMS.register("spice_syrup",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
     );
-
+    public static final DeferredItem<Item> SODA = ITEMS.register("soda",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationModifier(0F).build()))
+    );
     public static final DeferredItem<Item> MOLASSES = ITEMS.register("molasses",()->new Item(
             new Item.Properties())
     );
@@ -88,10 +97,19 @@ public class ModItems {
     public static final DeferredItem<Item> COCOA_LIQUEUR = ITEMS.register("cocoa_liqueur",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
     );
-
     public static final DeferredItem<Item> FLORAL_LIQUEUR = ITEMS.register("floral_liqueur",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
     );
+    public static final DeferredItem<Item> NUT_LIQUEUR = ITEMS.register("nut_liqueur",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
+    );
+    public static final DeferredItem<Item> AMARO = ITEMS.register("amaro",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
+    );
+    public static final DeferredItem<Item> FORTIFIED_WINE = ITEMS.register("fortified_wine",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
+    );
+
     public static final DeferredItem<Item> BITTERS = ITEMS.register("bitters",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationModifier(0F).build())) {
         @Override
@@ -103,10 +121,24 @@ public class ModItems {
     );
 
 
+    //ALCOHOLS: MIXED DRINKS
+        //IBA LIST
+    public static final DeferredItem<Item> ALEXANDER = ITEMS.register("alexander",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> AMERICANO_COCKTAIL = ITEMS.register("americano_cocktail",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> ANGEL_FACE = ITEMS.register("angel_face",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> AVIATION = ITEMS.register("aviation",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationModifier(1.2F).build()))
+    );
 
 
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
-    };
+    }
 }

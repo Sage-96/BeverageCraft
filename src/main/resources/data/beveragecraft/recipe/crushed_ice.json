@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:packed_ice"
+      },
+      {
+        "item": "minecraft:ice"
+      },
+      {
+        "item": "minecraft:blue_ice"
+      }
+    ],
+    {"item": "pamhc2foodcore:grinderitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:crushed_ice",
+    "count": 64
+  }
+}

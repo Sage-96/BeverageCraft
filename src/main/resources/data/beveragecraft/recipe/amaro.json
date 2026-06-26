@@ -5,11 +5,11 @@
     {"tag": "beveragecraft:spirit"},
     {"tag": "beveragecraft:spirit"},
     {"tag": "beveragecraft:spirit"},
-    {"item": "minecraft:cocoa_beans"},
+    {"tag": "c:spices"},
     {"item": "minecraft:sugar"}
   ],
   "result": {
-    "id": "beveragecraft:cocoa_liqueur",
+    "id": "beveragecraft:amaro",
     "count": 8
   }
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:gin"},
+    {"item": "pamhc2trees:apricotitem"},
+    {"item": "minecraft:apple"}
+  ],
+  "result": {
+    "id": "beveragecraft:angel_face",
+    "count": 1
+  }
+}

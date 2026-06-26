@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:cocoa_liqueur"},
+    {"tag": "c:cream"}
+  ],
+  "result": {
+    "id": "beveragecraft:alexander",
+    "count": 1
+  }
+}

@@ -19,13 +19,16 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup.beveragecraft"))
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.STILL);
+                        output.accept(ModItems.MIXER);
                         output.accept(ModItems.YEAST);
+                        output.accept(ModItems.CRUSHED_ICE);
                         output.accept(ModItems.SYRUP);
                         output.accept(ModItems.VANILLA_SYRUP);
                         output.accept(ModItems.ORGEAT_SYRUP);
                         output.accept(ModItems.FRUIT_SYRUP);
                         output.accept(ModItems.SPICE_SYRUP);
                         output.accept(ModItems.MOLASSES);
+                        output.accept(ModItems.SODA);
                         output.accept(ModItems.BEER);
                         output.accept(ModItems.WINE);
                         output.accept(ModItems.HARD_CIDER);
@@ -39,8 +42,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FRUIT_LIQUEUR);
                         output.accept(ModItems.COCOA_LIQUEUR);
                         output.accept(ModItems.FLORAL_LIQUEUR);
+                        output.accept(ModItems.NUT_LIQUEUR);
+                        output.accept(ModItems.AMARO);
+                        output.accept(ModItems.FORTIFIED_WINE);
                         output.accept(ModItems.BITTERS);
 
+                        //IBA
+                        output.accept(ModItems.ALEXANDER);
+                        output.accept(ModItems.AMERICANO_COCKTAIL);
+                        output.accept(ModItems.ANGEL_FACE);
+                        output.accept(ModItems.AVIATION);
                         //output.accept(ModItems.);
 
 

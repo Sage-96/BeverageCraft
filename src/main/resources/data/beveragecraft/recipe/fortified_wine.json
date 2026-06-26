@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:wine"},
+    {"tag": "c:spices"},
+    {"item": "minecraft:sugar"},
+    {"item": "beveragecraft:distilling_flask"}
+  ],
+  "result": {
+    "id": "beveragecraft:fortified_wine",
+    "count": 2
+  }
+}
