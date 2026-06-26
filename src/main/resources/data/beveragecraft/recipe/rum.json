@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "beveragecraft:rum_base"},
+    {"tag": "beveragecraft:rum_base"},
+    {"tag": "c:water"},
+    {"item": "beveragecraft:distilling_flask"}
+  ],
+  "result": {
+    "id": "beveragecraft:rum",
+    "count": 2
+  }
+}

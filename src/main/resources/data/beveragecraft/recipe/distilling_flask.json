@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "ingredients": [
+    {
+      "tag": "minecraft:candles"
+    },
+    {
+      "tag": "minecraft:candles"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "pattern": [
+    " GG",
+    "G G",
+    "GCG"
+  ],
+  "key": {
+    "G": {
+      "item": "glass"
+    },
+    "C": {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result": {
+    "id": "beveragecraft:distilling_flask",
+    "count": 1
+  }
+}

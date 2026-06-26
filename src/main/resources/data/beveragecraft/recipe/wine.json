@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:fruits"},
+    {"tag": "c:fruits"},
+    {"item": "pamhc2foodcore:juiceritem"},
+    {"item": "beveragecraft:yeast"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:wine",
+    "count": 2
+  }
+}

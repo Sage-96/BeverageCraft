@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    {"tag": "c:grain"},
+    {"item": "pamhc2foodcore:mixingbowlitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:yeast",
+    "count": 64
+  }
+}

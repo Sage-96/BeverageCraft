@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "beveragecraft:spirit"},
+    {"tag": "beveragecraft:spirit"},
+    {"tag": "beveragecraft:spirit"},
+    {"tag": "beveragecraft:spirit"},
+    {"tag": "minecraft:flowers"},
+    {"item": "minecraft:sugar"}
+  ],
+  "result": {
+    "id": "beveragecraft:floral_liqueur",
+    "count": 8
+  }
+}

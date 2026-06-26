@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodcore:juiceritem"},
+    {"item": "minecraft:sugar_cane"},
+    {"item": "minecraft:sugar_cane"}
+  ],
+  "result": {
+    "id": "beveragecraft:molasses",
+    "count": 4
+  }
+}

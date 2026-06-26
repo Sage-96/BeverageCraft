@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "beveragecraft:brandy_base"},
+    {"tag": "beveragecraft:brandy_base"},
+    {"item": "minecraft:sugar"},
+    {"tag": "c:water"},
+    {"item": "beveragecraft:distilling_flask"}
+  ],
+  "result": {
+    "id": "beveragecraft:brandy",
+    "count": 2
+  }
+}

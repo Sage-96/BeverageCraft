@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    {"item": "minecraft:sugar"},
+    {"item": "minecraft:sugar"},
+    {"item": "pamhc2foodcore:potitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:syrup",
+    "count": 8
+  }
+}

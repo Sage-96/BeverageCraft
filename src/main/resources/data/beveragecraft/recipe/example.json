@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodcore:bakewareitem"},
+    {"item": "pamhc2foodcore:cuttingboarditem"},
+    {"item": "pamhc2foodcore:juiceritem"},
+    {"item": "pamhc2foodcore:grinderitem"},
+    {"item": "pamhc2foodcore:mixingbowlitem"},
+    {"item": "pamhc2foodcore:potitem"},
+    {"item": "pamhc2foodcore:rolleritem"},
+    {"item": "pamhc2foodcore:saucepanitem"},
+    {"item": "pamhc2foodcore:skilletitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:",
+    "count": 8
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "beveragecraft:whiskey_base"},
+    {"tag": "beveragecraft:whiskey_base"},
+    {"tag": "c:water"},
+    {"item": "beveragecraft:distilling_flask"}
+  ],
+  "result": {
+    "id": "beveragecraft:whiskey",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "beveragecraft:brandy",
+    "beveragecraft:rum",
+    "beveragecraft:vodka",
+    "beveragecraft:gin",
+    "beveragecraft:tequila",
+    "beveragecraft:whiskey"
+
+  ]
+}

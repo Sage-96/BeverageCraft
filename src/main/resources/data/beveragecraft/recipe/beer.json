@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    {"tag": "beveragecraft:beer_base"},
+    {"tag": "beveragecraft:beer_base"},
+    {"item": "beveragecraft:yeast"}
+  ],
+  "result": {
+    "id": "beveragecraft:beer",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    {"item": "minecraft:sugar"},
+    {"item": "minecraft:sugar"},
+    {"item": "pamhc2foodcore:potitem"},
+    {"tag": "c:nuts"},
+    {"tag": "c:nuts"}
+  ],
+  "result": {
+    "id": "beveragecraft:orgeat_syrup",
+    "count": 8
+  }
+}

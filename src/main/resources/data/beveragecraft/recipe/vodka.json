@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "beveragecraft:vodka_base"},
+    {"tag": "beveragecraft:vodka_base"},
+    {"tag": "c:water"},
+    {"item": "beveragecraft:distilling_flask"}
+  ],
+  "result": {
+    "id": "beveragecraft:vodka",
+    "count": 2
+  }
+}
