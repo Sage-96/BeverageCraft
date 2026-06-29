@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:gin"},
+    {"item": "pamhc2trees:apricotitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:paradise",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "pamhc2crops:raspberryitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"tag": "beveragecraft:cocktail_egg"}
+  ],
+  "result": {
+    "id": "beveragecraft:clover_club",
+    "count": 1
+  }
+}

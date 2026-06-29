@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:syrup"},
+    {"tag": "c:cream"},
+    {"tag": "beveragecraft:cocktail_egg"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:ramos_fizz",
+    "count": 1
+  }
+}

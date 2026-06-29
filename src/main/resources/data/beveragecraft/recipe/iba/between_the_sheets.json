@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "beveragecraft:brandy"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2trees:orangeitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:between_the_sheets",
+    "count": 1
+  }
+}

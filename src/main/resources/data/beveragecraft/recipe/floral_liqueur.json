@@ -5,7 +5,10 @@
     {"tag": "beveragecraft:spirit"},
     {"tag": "beveragecraft:spirit"},
     {"tag": "beveragecraft:spirit"},
-    {"tag": "minecraft:flowers"},
+    [
+      {"tag": "minecraft:flowers"},
+      {"item": "pamhc2crops:spiceleafitem"}
+    ],
     {"item": "minecraft:sugar"}
   ],
   "result": {

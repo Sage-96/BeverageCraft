@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:fortified_wine"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "beveragecraft:bitters"}
+  ],
+  "result": {
+    "id": "beveragecraft:vieux_carre",
+    "count": 1
+  }
+}

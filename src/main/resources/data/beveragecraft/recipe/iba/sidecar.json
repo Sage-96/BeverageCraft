@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:orangeitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:sidecar",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "beveragecraft:fortified_wine"},
+    {"item": "beveragecraft:bitters"}
+  ],
+  "result": {
+    "id": "beveragecraft:manhattan",
+    "count": 1
+  }
+}

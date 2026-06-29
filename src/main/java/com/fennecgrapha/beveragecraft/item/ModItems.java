@@ -34,6 +34,9 @@ public class ModItems {
     public static final DeferredItem<Item> CRUSHED_ICE = ITEMS.register("crushed_ice",()->new Item(
             new Item.Properties())
     );
+    public static final DeferredItem<Item> AQUAFABA = ITEMS.register("aquafaba", () -> new Item(
+            new Item.Properties())
+    );
 
     // INGREDIENTS
     public static final DeferredItem<Item> SYRUP = ITEMS.register("syrup",()->new Item(
@@ -122,20 +125,116 @@ public class ModItems {
 
 
     //ALCOHOLS: MIXED DRINKS
+    static int cocktail_nutrition=12;
+    static float cocktail_saturation=1.4F;
+    static FoodProperties cocktail_properties=new FoodProperties.Builder().nutrition(cocktail_nutrition).saturationModifier(cocktail_saturation).build();
         //IBA LIST
-    public static final DeferredItem<Item> ALEXANDER = ITEMS.register("alexander",()->new Item(
-            new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationModifier(1.2F).build()))
+    public static final DeferredItem<Item> ALEXANDER = ITEMS.register("alexander",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
     );
-    public static final DeferredItem<Item> AMERICANO_COCKTAIL = ITEMS.register("americano_cocktail",()->new Item(
-            new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationModifier(1.2F).build()))
+    public static final DeferredItem<Item> AMERICANO_COCKTAIL = ITEMS.register("americano_cocktail",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
     );
-    public static final DeferredItem<Item> ANGEL_FACE = ITEMS.register("angel_face",()->new Item(
-            new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationModifier(1.2F).build()))
+    public static final DeferredItem<Item> ANGEL_FACE = ITEMS.register("angel_face",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
     );
-    public static final DeferredItem<Item> AVIATION = ITEMS.register("aviation",()->new Item(
-            new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationModifier(1.2F).build()))
+    public static final DeferredItem<Item> AVIATION = ITEMS.register("aviation",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BETWEEN_THE_SHEETS = ITEMS.register("between_the_sheets",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BOULIVARDIER = ITEMS.register("boulivardier",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BRANDY_CRUSTA = ITEMS.register("brandy_crusta",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CASINO = ITEMS.register("casino",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CLOVER_CLUB = ITEMS.register("clover_club",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> DAIQUIRI = ITEMS.register("daiquiri",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> DRY_MARTINI = ITEMS.register("dry_martini",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> GIN_FIZZ = ITEMS.register("gin_fizz",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    //Untextured
+    public static final DeferredItem<Item> HANKY_PANKY = ITEMS.register("hanky_panky",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> JOHN_COLLINS = ITEMS.register("john_collins",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> LAST_WORD = ITEMS.register("last_word",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MANHATTAN = ITEMS.register("manhattan",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
     );
 
+    public static final DeferredItem<Item> MARTINEZ = ITEMS.register("martinez",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MARY_PICKFORD = ITEMS.register("mary_pickford",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MONKEY_GLAND = ITEMS.register("monkey_gland",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> NEGRONI = ITEMS.register("negroni",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> OLD_FASHIONED = ITEMS.register("old_fashioned",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PARADISE = ITEMS.register("paradise",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PLANTERS_PUNCH = ITEMS.register("planters_punch",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PORTO_FLIP = ITEMS.register("porto_flip",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+
+    public static final DeferredItem<Item> RAMOS_FIZZ = ITEMS.register("ramos_fizz",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> REMEMBER_THE_MAINE = ITEMS.register("remember_the_maine",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> RUSTY_NAIL = ITEMS.register("rusty_nail",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SAZERAC = ITEMS.register("sazerac",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SIDECAR = ITEMS.register("sidecar",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> STINGER = ITEMS.register("stinger",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> TUXEDO = ITEMS.register("tuxedo",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> VIEUX_CARRE = ITEMS.register("vieux_carre",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> WHISKEY_SOUR = ITEMS.register("whiskey_sour",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> WHITE_LADY = ITEMS.register("white_lady",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    //Untextured and unreciped
 
 
     public static void register(IEventBus eventBus){

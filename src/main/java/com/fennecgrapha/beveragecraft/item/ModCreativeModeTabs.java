@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MIXER);
                         output.accept(ModItems.YEAST);
                         output.accept(ModItems.CRUSHED_ICE);
+                        output.accept(ModItems.AQUAFABA);
                         output.accept(ModItems.SYRUP);
                         output.accept(ModItems.VANILLA_SYRUP);
                         output.accept(ModItems.ORGEAT_SYRUP);
@@ -52,6 +53,38 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AMERICANO_COCKTAIL);
                         output.accept(ModItems.ANGEL_FACE);
                         output.accept(ModItems.AVIATION);
+                        output.accept(ModItems.BETWEEN_THE_SHEETS);
+                        output.accept(ModItems.BOULIVARDIER);
+                        output.accept(ModItems.BRANDY_CRUSTA);
+                        output.accept(ModItems.CASINO);
+                        output.accept(ModItems.CLOVER_CLUB);
+                        output.accept(ModItems.DAIQUIRI);
+                        output.accept(ModItems.DRY_MARTINI);
+                        output.accept(ModItems.GIN_FIZZ);
+                        output.accept(ModItems.HANKY_PANKY);
+                        output.accept(ModItems.JOHN_COLLINS);
+                        output.accept(ModItems.LAST_WORD);
+                        output.accept(ModItems.MANHATTAN);
+                        output.accept(ModItems.MARTINEZ);
+                        output.accept(ModItems.MARY_PICKFORD);
+                        output.accept(ModItems.MONKEY_GLAND);
+                        output.accept(ModItems.NEGRONI);
+                        output.accept(ModItems.OLD_FASHIONED);
+                        output.accept(ModItems.PARADISE);
+                        output.accept(ModItems.PLANTERS_PUNCH);
+                        output.accept(ModItems.PORTO_FLIP);
+                        output.accept(ModItems.RAMOS_FIZZ);
+                        output.accept(ModItems.REMEMBER_THE_MAINE);
+                        output.accept(ModItems.RUSTY_NAIL);
+                        output.accept(ModItems.SAZERAC);
+                        output.accept(ModItems.SIDECAR);
+                        output.accept(ModItems.STINGER);
+                        output.accept(ModItems.TUXEDO);
+                        output.accept(ModItems.VIEUX_CARRE);
+                        output.accept(ModItems.WHISKEY_SOUR);
+                        output.accept(ModItems.WHITE_LADY);
+
+
                         //output.accept(ModItems.);
 
 

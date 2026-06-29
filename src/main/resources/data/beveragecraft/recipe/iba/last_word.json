@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:cherryitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:last_word",
+    "count": 1
+  }
+}

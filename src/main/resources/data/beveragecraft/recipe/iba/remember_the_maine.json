@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "beveragecraft:brandy"},
+    {"item": "pamhc2trees:cherryitem"},
+    {"item": "beveragecraft:fortified_wine"},
+    {"item": "beveragecraft:absinthe"}
+  ],
+  "result": {
+    "id": "beveragecraft:remember_the_maine",
+    "count": 1
+  }
+}

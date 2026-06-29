@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2trees:cherryitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:mary_pickford",
+    "count": 1
+  }
+}

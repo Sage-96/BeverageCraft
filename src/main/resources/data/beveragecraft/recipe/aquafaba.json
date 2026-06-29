@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    [{"item":"pamhc2crops:soybeanitem"},{"item":"pamhc2crops:beanitem"},{"item":"pamhc2crops:chickpeaitem"}],
+    {"item": "pamhc2foodcore:potitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:aquafaba",
+    "count": 16
+  }
+}

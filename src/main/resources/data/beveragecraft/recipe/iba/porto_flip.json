@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:fortified_wine"},
+    {"tag": "beveragecraft:cocktail_egg"}
+  ],
+  "result": {
+    "id": "beveragecraft:porto_flip",
+    "count": 1
+  }
+}

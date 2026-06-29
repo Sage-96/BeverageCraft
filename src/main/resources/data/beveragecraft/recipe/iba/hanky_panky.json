@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:fortified_wine"},
+    {"item": "beveragecraft:amaro"}
+  ],
+  "result": {
+    "id": "beveragecraft:hanky_panky",
+    "count": 1
+  }
+}

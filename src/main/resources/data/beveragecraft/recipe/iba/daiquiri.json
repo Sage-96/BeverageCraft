@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "pamhc2foodextended:limejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:daiquiri",
+    "count": 1
+  }
+}

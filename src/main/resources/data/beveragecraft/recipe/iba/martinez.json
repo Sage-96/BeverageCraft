@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:fortified_wine"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "beveragecraft:bitters"},
+    {"item": "pamhc2trees:cherryitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:martinez",
+    "count": 1
+  }
+}

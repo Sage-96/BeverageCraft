@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:floral_liqueur"}
+  ],
+  "result": {
+    "id": "beveragecraft:stinger",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:amaro"},
+    {"item": "beveragecraft:fortified_wine"},
+    {"item": "pamhc2trees:orangeitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:negroni",
+    "count": 1
+  }
+}

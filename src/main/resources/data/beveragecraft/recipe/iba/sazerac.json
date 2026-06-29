@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [{"item": "beveragecraft:whiskey"},{"item": "beveragecraft:brandy"}],
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:absinthe"},
+    {"item": "beveragecraft:bitters"}
+  ],
+  "result": {
+    "id": "beveragecraft:sazerac",
+    "count": 1
+  }
+}

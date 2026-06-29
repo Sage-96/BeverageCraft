@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:whiskey_sour",
+    "count": 1
+  }
+}

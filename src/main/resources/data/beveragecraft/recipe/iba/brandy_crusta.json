@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:orangeitem"},
+    {"item": "pamhc2trees:cherryitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:bitters"}
+  ],
+  "result": {
+    "id": "beveragecraft:brandy_crusta",
+    "count": 1
+  }
+}

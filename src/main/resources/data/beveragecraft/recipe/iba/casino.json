@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:cherryitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:bitters"}
+  ],
+  "result": {
+    "id": "beveragecraft:casino",
+    "count": 1
+  }
+}

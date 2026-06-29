@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "minecraft:honey_bottle"}
+  ],
+  "result": {
+    "id": "beveragecraft:rusty_nail",
+    "count": 1
+  }
+}
