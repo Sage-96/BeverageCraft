@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:nut_liqueur"}
+  ],
+  "result": {
+    "id": "beveragecraft:french_connection",
+    "count": 1
+  }
+}

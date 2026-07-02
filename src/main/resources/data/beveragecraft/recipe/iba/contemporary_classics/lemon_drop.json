@@ -1,12 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {"item": "beveragecraft:whiskey"},
+    {"item": "beveragecraft:vodka"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:orangeitem"},
     {"item": "pamhc2foodextended:lemonjuiceitem"},
     {"item": "beveragecraft:syrup"}
   ],
   "result": {
-    "id": "beveragecraft:whiskey_sour",
+    "id": "beveragecraft:lemon_drop",
     "count": 1
   }
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:bitters"},
+    {"item": "beveragecraft:absinthe"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:grapefruitjuiceitem"},
+    {"item": "beveragecraft:spice_syrup"},
+    {"item": "beveragecraft:fruit_syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:zombie",
+    "count": 2
+  }
+}

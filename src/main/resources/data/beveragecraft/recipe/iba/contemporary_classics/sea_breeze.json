@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "pamhc2foodextended:cranberryjuiceitem"},
+    {"item": "pamhc2foodextended:grapefruitjuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:sea_breeze",
+    "count": 1
+  }
+}

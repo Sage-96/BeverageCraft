@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "beveragecraft:coffee_liqueur"}
+  ],
+  "result": {
+    "id": "beveragecraft:black_russian",
+    "count": 1
+  }
+}

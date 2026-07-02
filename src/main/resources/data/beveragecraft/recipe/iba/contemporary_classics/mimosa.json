@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "beveragecraft:sparkling_wine"}
+  ],
+  "result": {
+    "id": "beveragecraft:mimosa",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "beveragecraft:cocoa_liqueur"},
+    {"tag": "c:cream"}
+  ],
+  "result": {
+    "id": "beveragecraft:grasshopper",
+    "count": 1
+  }
+}

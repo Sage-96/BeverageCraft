@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "minecraft:sweet_berries"},
+    {"item": "beveragecraft:wine"}
+  ],
+  "result": {
+    "id": "beveragecraft:kir",
+    "count": 1
+  }
+}

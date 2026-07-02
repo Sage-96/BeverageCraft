@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:sparkling_wine"},
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:bitters"},
+    {"item": "minecraft:sugar"}
+  ],
+  "result": {
+    "id": "beveragecraft:champagne_cocktail",
+    "count": 1
+  }
+}

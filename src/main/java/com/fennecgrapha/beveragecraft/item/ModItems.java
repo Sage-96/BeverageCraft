@@ -103,6 +103,9 @@ public class ModItems {
     public static final DeferredItem<Item> COCOA_LIQUEUR = ITEMS.register("cocoa_liqueur",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
     );
+    public static final DeferredItem<Item> COFFEE_LIQUEUR = ITEMS.register("coffee_liqueur",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
+    );
     public static final DeferredItem<Item> FLORAL_LIQUEUR = ITEMS.register("floral_liqueur",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
     );
@@ -168,7 +171,6 @@ public class ModItems {
     public static final DeferredItem<Item> GIN_FIZZ = ITEMS.register("gin_fizz",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
-    //Untextured
     public static final DeferredItem<Item> HANKY_PANKY = ITEMS.register("hanky_panky",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
@@ -206,7 +208,6 @@ public class ModItems {
     public static final DeferredItem<Item> PORTO_FLIP = ITEMS.register("porto_flip",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
-
     public static final DeferredItem<Item> RAMOS_FIZZ = ITEMS.register("ramos_fizz",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
@@ -237,7 +238,114 @@ public class ModItems {
     public static final DeferredItem<Item> WHITE_LADY = ITEMS.register("white_lady",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
+
+    //Untextured
+    public static final DeferredItem<Item> BELLINI = ITEMS.register("bellini",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BLACK_RUSSIAN = ITEMS.register("black_russian",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BLOODY_MARY = ITEMS.register("bloody_mary",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CAIPIRINHA = ITEMS.register("caipirinha",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CARDINALE = ITEMS.register("cardinale",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CHAMPAGNE_COCKTAIL = ITEMS.register("champagne_cocktail",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CORPSE_REVIVER_2 = ITEMS.register("corpse_reviver_2",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> COSMOPOLITAN = ITEMS.register("cosmopolitan",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CUBA_LIBRE = ITEMS.register("cuba_libre",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> FRENCH_75 = ITEMS.register("french_75",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> FRENCH_CONNECTION = ITEMS.register("french_connection",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> GARIBALDI = ITEMS.register("garibaldi",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> GRASSHOPPER = ITEMS.register("grasshopper",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> HEMINGWAY_SPECIAL = ITEMS.register("hemingway_special",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> HORSES_NECK = ITEMS.register("horses_neck",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> IRISH_COFFEE = ITEMS.register("irish_coffee",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> KIR = ITEMS.register("kir",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> LEMON_DROP = ITEMS.register("lemon_drop",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> LONG_ISLAND_ICED_TEA = ITEMS.register("long_island_iced_tea",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MAI_TAI = ITEMS.register("mai_tai",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MARGARITA = ITEMS.register("margarita",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MIMOSA = ITEMS.register("mimosa",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MINT_JULEP = ITEMS.register("mint_julep",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MOJITO = ITEMS.register("mojito",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MOSCOW_MULE = ITEMS.register("moscow_mule",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PINA_COLADA = ITEMS.register("pina_colada",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PISCO_SOUR = ITEMS.register("pisco_sour",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> RABO_DE_GALO = ITEMS.register("rabo_de_galo",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SEA_BREEZE = ITEMS.register("sea_breeze",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SEX_ON_THE_BEACH = ITEMS.register("sex_on_the_beach",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SINGAPORE_SLING = ITEMS.register("singapore_sling",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> TEQUILA_SUNRISE = ITEMS.register("tequila_sunrise",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> VESPER = ITEMS.register("vesper",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> ZOMBIE = ITEMS.register("zombie",()->new ModCocktailIBAItem(
+            new Item.Properties().food(cocktail_properties))
+    );
     //Untextured and unreciped
+
+
+
 
 
     public static void register(IEventBus eventBus){

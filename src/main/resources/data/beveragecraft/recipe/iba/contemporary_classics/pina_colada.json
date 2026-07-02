@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2trees:coconutitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "beveragecraft:crushed_ice"},
+    {"item": "beveragecraft:drink_mixer"}
+  ],
+  "result": {
+    "id": "beveragecraft:pina_colada",
+    "count": 1
+  }
+}

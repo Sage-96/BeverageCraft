@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {"item": "beveragecraft:brandy"},
+      {"item": "beveragecraft:whiskey"}
+    ],
+    {"item": "pamhc2foodextended:gingersodaitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:horses_neck",
+    "count": 1
+  }
+}

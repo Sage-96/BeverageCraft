@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "pamhc2crops:hotcoffeeitem"},
+    {"item": "minecraft:sugar"},
+    {"tag": "c:cream"}
+  ],
+  "result": {
+    "id": "beveragecraft:irish_coffee",
+    "count": 1
+  }
+}

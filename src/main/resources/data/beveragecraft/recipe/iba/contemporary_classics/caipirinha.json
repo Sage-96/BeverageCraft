@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "minecraft:stick"},
+    {"item": "pamhc2trees:limeitem"},
+    {"item": "minecraft:sugar"}
+  ],
+  "result": {
+    "id": "beveragecraft:caipirinha",
+    "count": 1
+  }
+}

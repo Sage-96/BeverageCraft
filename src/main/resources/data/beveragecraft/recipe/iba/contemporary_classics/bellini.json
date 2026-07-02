@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:peachjuiceitem"},
+    {"item": "beveragecraft:sparkling_wine"}
+  ],
+  "result": {
+    "id": "beveragecraft:bellini",
+    "count": 1
+  }
+}

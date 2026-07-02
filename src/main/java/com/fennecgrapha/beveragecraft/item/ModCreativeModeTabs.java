@@ -43,6 +43,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ABSINTHE);
                         output.accept(ModItems.FRUIT_LIQUEUR);
                         output.accept(ModItems.COCOA_LIQUEUR);
+                        output.accept(ModItems.COFFEE_LIQUEUR);
                         output.accept(ModItems.FLORAL_LIQUEUR);
                         output.accept(ModItems.NUT_LIQUEUR);
                         output.accept(ModItems.AMARO);
@@ -84,8 +85,40 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.VIEUX_CARRE);
                         output.accept(ModItems.WHISKEY_SOUR);
                         output.accept(ModItems.WHITE_LADY);
-
-
+                        output.accept(ModItems.BELLINI);
+                        output.accept(ModItems.BLACK_RUSSIAN);
+                        output.accept(ModItems.BLOODY_MARY);
+                        output.accept((ModItems.CAIPIRINHA));
+                        output.accept(ModItems.CARDINALE);
+                        output.accept(ModItems.CHAMPAGNE_COCKTAIL);
+                        output.accept(ModItems.CORPSE_REVIVER_2);
+                        output.accept(ModItems.COSMOPOLITAN);
+                        output.accept(ModItems.CUBA_LIBRE);
+                        output.accept(ModItems.FRENCH_75);
+                        output.accept(ModItems.FRENCH_CONNECTION);
+                        output.accept(ModItems.GARIBALDI);
+                        output.accept(ModItems.GRASSHOPPER);
+                        output.accept(ModItems.HEMINGWAY_SPECIAL);
+                        output.accept(ModItems.HORSES_NECK);
+                        output.accept(ModItems.IRISH_COFFEE);
+                        output.accept(ModItems.KIR);
+                        output.accept(ModItems.LEMON_DROP);
+                        output.accept(ModItems.LONG_ISLAND_ICED_TEA);
+                        output.accept(ModItems.MAI_TAI);
+                        output.accept(ModItems.MARGARITA);
+                        output.accept(ModItems.MIMOSA);
+                        output.accept(ModItems.MINT_JULEP);
+                        output.accept(ModItems.MOJITO);
+                        output.accept(ModItems.MOSCOW_MULE);
+                        output.accept(ModItems.PINA_COLADA);
+                        output.accept(ModItems.PISCO_SOUR);
+                        output.accept(ModItems.RABO_DE_GALO);
+                        output.accept(ModItems.SEA_BREEZE);
+                        output.accept(ModItems.SEX_ON_THE_BEACH);
+                        output.accept(ModItems.SINGAPORE_SLING);
+                        output.accept(ModItems.TEQUILA_SUNRISE);
+                        output.accept(ModItems.VESPER);
+                        output.accept(ModItems.ZOMBIE);
                         //output.accept(ModItems.);
 
 

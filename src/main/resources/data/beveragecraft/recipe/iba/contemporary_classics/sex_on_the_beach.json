@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:peachitem"},
+    {"item": "pamhc2foodextended:cranberryjuiceitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:sex_on_the_beach",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:tequila"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "pamhc2trees:pomegranateitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:tequila_sunrise",
+    "count": 1
+  }
+}

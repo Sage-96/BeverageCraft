@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "pamhc2crops:spiceleafitem"},
+    {"item": "minecraft:sugar"},
+    {"item": "beveragecraft:crushed_ice"}
+  ],
+  "result": {
+    "id": "beveragecraft:mint_julep",
+    "count": 1
+  }
+}
