@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SODA);
                         output.accept(ModItems.BEER);
                         output.accept(ModItems.WINE);
+                        output.accept(ModItems.SPARKLING_WINE);
                         output.accept(ModItems.HARD_CIDER);
                         output.accept(ModItems.BRANDY);
                         output.accept(ModItems.RUM);

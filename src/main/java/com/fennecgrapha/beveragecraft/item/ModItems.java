@@ -68,6 +68,9 @@ public class ModItems {
     public static final DeferredItem<Item> WINE = ITEMS.register("wine",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.4F).build()))
     );
+    public static final DeferredItem<Item> SPARKLING_WINE = ITEMS.register("sparkling_wine",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.4F).build()))
+    );
     public static final DeferredItem<Item> HARD_CIDER = ITEMS.register("hard_cider",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.4F).build()))
     );
