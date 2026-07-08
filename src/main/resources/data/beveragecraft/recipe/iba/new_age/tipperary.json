@@ -2,11 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {"item": "beveragecraft:whiskey"},
+    {"item": "beveragecraft:fortified_wine"},
     {"item": "beveragecraft:floral_liqueur"},
-    {"item": "beveragecraft:honey_syrup"}
+    {"item": "beveragecraft:bitters"}
   ],
   "result": {
-    "id": "beveragecraft:rusty_nail",
+    "id": "beveragecraft:tipperary",
     "count": 1
   }
 }

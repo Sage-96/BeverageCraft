@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:sparkling_wine"},
+    {"item": "beveragecraft:amaro"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:spritz",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "beveragecraft:syrup",
+    "beveragecraft:vanilla_syrup",
+    "beveragecraft:orgeat_syrup",
+    "beveragecraft:fruit_syrup",
+    "beveragecraft:spice_syrup",
+    "beveragecraft:honey_syrup"
+  ]
+}

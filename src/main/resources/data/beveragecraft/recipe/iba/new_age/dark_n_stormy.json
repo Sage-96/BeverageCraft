@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2foodextended:gingersodaitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:dark_n_stormy",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "pamhc2crops:spiceleafitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:south_side",
+    "count": 1
+  }
+}

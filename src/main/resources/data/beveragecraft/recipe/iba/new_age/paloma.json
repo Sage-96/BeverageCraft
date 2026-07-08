@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:tequila"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:grapefruitsodaitem"},
+    [{"item": "pamhc2foodcore:saltitem"},{"tag": "c:salt"}]
+  ],
+  "result": {
+    "id": "beveragecraft:paloma",
+    "count": 1
+  }
+}

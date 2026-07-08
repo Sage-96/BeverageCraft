@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:cherryitem"},
+    {"item": "pamhc2foodextended:passionfruitjuiceitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2crops:gingeritem"}
+  ],
+  "result": {
+    "id": "beveragecraft:iba_tiki",
+    "count": 2
+  }
+}

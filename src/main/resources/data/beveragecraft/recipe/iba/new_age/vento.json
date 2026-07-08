@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:honey_syrup"},
+    {"tag": "minecraft:flowers"},
+    {"tag": "c:water"}
+  ],
+  "result": {
+    "id": "beveragecraft:vento",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "beveragecraft:honey_syrup"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2crops:gingeritem"}
+  ],
+  "result": {
+    "id": "beveragecraft:penicillin",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2crops:spiceleafitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:sparkling_wine"}
+  ],
+  "result": {
+    "id": "beveragecraft:old_cuban",
+    "count": 1
+  }
+}

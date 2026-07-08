@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:peachitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:honey_syrup"},
+    {"item": "pamhc2crops:pineappleitem"},
+    {"item": "pamhc2crops:spiceleafitem"},
+    {"item": "beveragecraft:crushed_ice"},
+    {"item": "beveragecraft:drink_mixer"}
+  ],
+  "result": {
+    "id": "beveragecraft:missionarys_downfall",
+    "count": 1
+  }
+}

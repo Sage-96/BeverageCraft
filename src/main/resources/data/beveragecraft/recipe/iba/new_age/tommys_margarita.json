@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:tequila"},
+    {"item": "pamhc2crops:agaveitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:tommys_margarita",
+    "count": 1
+  }
+}

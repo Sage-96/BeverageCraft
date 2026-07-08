@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:syrup"},
+    {"tag": "beveragecraft:cocktail_egg"},
+    {"item": "beveragecraft:wine"}
+  ],
+  "result": {
+    "id": "beveragecraft:new_york_sour",
+    "count": 1
+  }
+}

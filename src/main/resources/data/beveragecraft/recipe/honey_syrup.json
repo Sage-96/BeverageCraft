@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    {"item": "minecraft:honey_bottle"},
+    {"item": "minecraft:honey_bottle"},
+    {"item": "pamhc2foodcore:potitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:honey_syrup",
+    "count": 12
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:honey_syrup"},
+    {"item": "pamhc2crops:chilipepperitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:spicy_fifty",
+    "count": 1
+  }
+}

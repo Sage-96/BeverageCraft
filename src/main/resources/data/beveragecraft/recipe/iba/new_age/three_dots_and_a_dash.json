@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "beveragecraft:spice_syrup"},
+    {"item": "beveragecraft:honey_syrup"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "beveragecraft:bitters"}
+  ],
+  "result": {
+    "id": "beveragecraft:three_dots_and_a_dash",
+    "count": 1
+  }
+}

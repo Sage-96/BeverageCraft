@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {"item": "beveragecraft:whiskey"},
-    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "beveragecraft:gin"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
     {"item": "beveragecraft:honey_syrup"}
   ],
   "result": {
-    "id": "beveragecraft:rusty_nail",
+    "id": "beveragecraft:bees_knees",
     "count": 1
   }
 }

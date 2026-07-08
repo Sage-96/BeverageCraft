@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:chartreuse_swizzle",
+    "count": 1
+  }
+}

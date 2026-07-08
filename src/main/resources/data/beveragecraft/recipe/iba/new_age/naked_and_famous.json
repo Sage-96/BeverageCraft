@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:tequila"},
+    {"item": "beveragecraft:amaro"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "pamhc2foodextended:limejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:naked_and_famous",
+    "count": 1
+  }
+}

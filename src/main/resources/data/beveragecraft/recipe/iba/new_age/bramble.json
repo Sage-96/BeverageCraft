@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2crops:blackberryitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:bramble",
+    "count": 1
+  }
+}

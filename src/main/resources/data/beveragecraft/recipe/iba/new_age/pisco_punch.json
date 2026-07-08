@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:wine"}
+  ],
+  "result": {
+    "id": "beveragecraft:pisco_punch",
+    "count": 1
+  }
+}

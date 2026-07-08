@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2foodextended:passionfruitjuiceitem"},
+    {"item": "beveragecraft:vanilla_syrup"},
+    {"item": "beveragecraft:sparkling_wine"}
+  ],
+  "result": {
+    "id": "beveragecraft:porn_star_martini",
+    "count": 1
+  }
+}

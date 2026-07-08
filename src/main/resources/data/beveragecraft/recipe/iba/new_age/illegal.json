@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:tequila"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:cherryitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:illegal",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:honey_syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:dons_special_daiquiri",
+    "count": 1
+  }
+}

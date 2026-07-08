@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ORGEAT_SYRUP);
                         output.accept(ModItems.FRUIT_SYRUP);
                         output.accept(ModItems.SPICE_SYRUP);
+                        output.accept(ModItems.HONEY_SYRUP);
                         output.accept(ModItems.MOLASSES);
                         output.accept(ModItems.SODA);
                         output.accept(ModItems.BEER);
@@ -119,6 +120,40 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TEQUILA_SUNRISE);
                         output.accept(ModItems.VESPER);
                         output.accept(ModItems.ZOMBIE);
+                        output.accept(ModItems.BEES_KNEES);
+                        output.accept(ModItems.BRAMBLE);
+                        output.accept(ModItems.CANCHANCHARA);
+                        output.accept(ModItems.CHARTREUSE_SWIZZLE);
+                        output.accept(ModItems.DARK_N_STORMY);
+                        output.accept(ModItems.DONS_SPECIAL_DAIQUIRI);
+                        output.accept(ModItems.ESPRESSO_MARTINI);
+                        output.accept(ModItems.FERNANDITO);
+                        output.accept(ModItems.FRENCH_MARTINI);
+                        output.accept(ModItems.GIN_BASIL_SMASH);
+                        output.accept(ModItems.GRAND_MARGARITA);
+                        output.accept(ModItems.IBA_TIKI);
+                        output.accept(ModItems.ILLEGAL);
+                        output.accept(ModItems.JUNGLE_BIRD);
+                        output.accept(ModItems.MISSIONARYS_DOWNFALL);
+                        output.accept(ModItems.NAKED_AND_FAMOUS);
+                        output.accept(ModItems.NEW_YORK_SOUR);
+                        output.accept(ModItems.OLD_CUBAN);
+                        output.accept(ModItems.PALOMA);
+                        output.accept(ModItems.PAPER_PLANE);
+                        output.accept(ModItems.PENICILLIN);
+                        output.accept(ModItems.PISCO_PUNCH);
+                        output.accept(ModItems.PORN_STAR_MARTINI);
+                        output.accept(ModItems.RUSSIAN_SPRING_PUNCH);
+                        output.accept(ModItems.SHERRY_COBBLER);
+                        output.accept(ModItems.SOUTH_SIDE);
+                        output.accept(ModItems.SPICY_FIFTY);
+                        output.accept(ModItems.SPRITZ);
+                        output.accept(ModItems.SUFFERING_BASTARD);
+                        output.accept(ModItems.THREE_DOTS_AND_A_DASH);
+                        output.accept(ModItems.TIPPERARY);
+                        output.accept(ModItems.TOMMYS_MARGARITA);
+                        output.accept(ModItems.TRINIDAD_SOUR);
+                        output.accept(ModItems.VENTO);
                         //output.accept(ModItems.);
 
 

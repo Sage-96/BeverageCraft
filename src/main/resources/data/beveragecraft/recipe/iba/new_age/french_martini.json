@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2crops:raspberryitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:french_martini",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "beveragecraft:coffee_liqueur"},
+    {"item": "pamhc2foodextended:espressoitem"},
+    {"item": "beveragecraft:syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:espresso_martini",
+    "count": 1
+  }
+}

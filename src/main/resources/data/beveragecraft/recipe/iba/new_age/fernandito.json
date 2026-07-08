@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:amaro"},
+    {"item": "pamhc2foodextended:colasodaitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:fernandito",
+    "count": 1
+  }
+}

@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {"item": "beveragecraft:whiskey"},
-    {"item": "beveragecraft:floral_liqueur"},
-    {"item": "beveragecraft:honey_syrup"}
+    {"item": "beveragecraft:amaro"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"}
   ],
   "result": {
-    "id": "beveragecraft:rusty_nail",
+    "id": "beveragecraft:paper_plane",
     "count": 1
   }
 }
