@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "pamhc2foodextended:pumpkinspicelatteitem",
+    "beveragecraft:flavored_latte",
+    "beveragecraft:flavored_mocha",
+    "beveragecraft:vietnamese_coffee",
+    "beveragecraft:caramel_macchiato"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:drink_mixer"},
+    [{"tag": "c:juices"},{"tag": "c:sodas"}],
+    [{"tag": "c:juices"},{"tag": "c:sodas"}],
+    {"item": "beveragecraft:crushed_ice"}
+  ],
+  "result": {
+    "id": "beveragecraft:slushie",
+    "count": 2
+  }
+}

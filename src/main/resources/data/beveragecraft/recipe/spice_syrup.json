@@ -5,11 +5,19 @@
     {"item": "minecraft:sugar"},
     {"item": "minecraft:sugar"},
     {"item": "pamhc2foodcore:potitem"},
-    {"item": "pamhc2foodextended:groundcinnamonitem"},
-    {"item": "pamhc2foodextended:groundnutmegitem"}
+    [
+      {"item": "pamhc2foodextended:groundcinnamonitem"},
+      {"item": "pamhc2foodextended:groundnutmegitem"},
+      {"item": "pamhc2crops:gingeritem"}
+    ],
+    [
+      {"item": "pamhc2foodextended:groundcinnamonitem"},
+      {"item": "pamhc2foodextended:groundnutmegitem"},
+      {"item": "pamhc2crops:gingeritem"}
+    ]
   ],
   "result": {
     "id": "beveragecraft:spice_syrup",
-    "count": 8
+    "count": 12
   }
 }

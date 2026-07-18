@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:chaiteaitem"},
+    {"tag": "c:milk"},
+    {"item": "minecraft:sugar"}
+  ],
+  "result": {
+    "id": "beveragecraft:chai_latte",
+    "count": 1
+  }
+}

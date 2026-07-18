@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "beveragecraft:unsweet_unmilk_teas"},
+    {"tag": "c:milk"},
+    {"item": "pamhc2foodextended:vanillaitem"},
+    {"item": "minecraft:sugar"},
+    {"tag": "c:ices"}
+  ],
+  "result": {
+    "id": "beveragecraft:thai_tea",
+    "count": 1
+  }
+}

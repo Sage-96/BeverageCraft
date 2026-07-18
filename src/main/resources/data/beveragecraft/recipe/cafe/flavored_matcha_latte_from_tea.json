@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:matcha_tea"},
+    {"tag": "c:milk"},
+    {"tag": "beveragecraft:syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:flavored_matcha_latte",
+    "count": 1
+  }
+}

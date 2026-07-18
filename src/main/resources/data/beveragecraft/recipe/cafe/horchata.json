@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2crops:riceitem"},
+    {"tag": "c:water"},
+    {"item": "minecraft:sugar"},
+    {"item": "pamhc2trees:cinnamonitem"},
+    {"item": "pamhc2trees:nutmegitem"},
+    {"item": "pamhc2foodextended:vanillaitem"},
+    {"item": "beveragecraft:drink_mixer"}
+  ],
+  "result": {
+    "id": "beveragecraft:horchata",
+    "count": 1
+  }
+}

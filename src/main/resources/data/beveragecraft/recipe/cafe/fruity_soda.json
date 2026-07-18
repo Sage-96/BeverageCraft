@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "beveragecraft:soda"},
+    {"tag": "c:juices"}
+  ],
+  "result": {
+    "id": "beveragecraft:fruity_soda",
+    "count": 1
+  }
+}

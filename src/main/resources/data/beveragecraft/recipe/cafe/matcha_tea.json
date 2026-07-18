@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    {"item": "beveragecraft:matcha_powder"},
+    {"item": "pamhc2foodcore:potitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:matcha_tea",
+    "count": 1
+  }
+}

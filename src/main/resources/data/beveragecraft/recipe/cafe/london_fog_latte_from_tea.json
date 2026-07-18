@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:earlgreyteaitem"},
+    {"tag": "c:milk"},
+    {"item": "beveragecraft:vanilla_syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:london_fog_latte",
+    "count": 1
+  }
+}

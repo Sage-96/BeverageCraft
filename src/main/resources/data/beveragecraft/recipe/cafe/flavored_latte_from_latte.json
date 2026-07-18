@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:latte"},
+    {"tag": "beveragecraft:syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:flavored_latte",
+    "count": 1
+  }
+}

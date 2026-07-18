@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    {"tag": "c:milk"},
+    {"item": "pamhc2foodcore:caramelitem"},
+    {"item": "pamhc2foodcore:potitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:caramel_sauce",
+    "count": 8
+  }
+}

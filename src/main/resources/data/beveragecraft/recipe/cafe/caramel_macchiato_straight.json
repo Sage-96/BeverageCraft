@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:espressoitem"},
+    {"tag": "c:milk"},
+    {"item": "beveragecraft:caramel_sauce"}
+  ],
+  "result": {
+    "id": "beveragecraft:caramel_macchiato",
+    "count": 1
+  }
+}

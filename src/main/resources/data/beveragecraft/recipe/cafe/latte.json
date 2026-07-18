@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:espressoitem"},
+    {"tag": "c:milk"}
+  ],
+  "result": {
+    "id": "beveragecraft:latte",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:drink_mixer"},
+    {"item": "pamhc2foodextended:espressoitem"},
+    [{"item": "beveragecraft:chocolate_sauce"},{"tag": "c:milk"}],
+    [{"item": "beveragecraft:caramel_sauce"},{"tag": "beveragecraft:syrup"}],
+    {"item": "beveragecraft:crushed_ice"}
+  ],
+  "result": {
+    "id": "beveragecraft:frappe",
+    "count": 1
+  }
+}

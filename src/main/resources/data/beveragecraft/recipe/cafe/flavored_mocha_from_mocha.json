@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:mocha"},
+    {"tag": "beveragecraft:syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:flavored_mocha",
+    "count": 1
+  }
+}

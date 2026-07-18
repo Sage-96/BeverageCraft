@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:espressoitem"},
+    {"item": "pamhc2foodextended:espressoitem"},
+    {"tag": "c:milk"},
+    {"item": "minecraft:sugar"},
+    {"item": "minecraft:sugar"}
+  ],
+  "result": {
+    "id": "beveragecraft:vietnamese_coffee",
+    "count": 2
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "beveragecraft:matcha_tea",
+    "pamhc2foodextended:chaiteaitem",
+    "pamhc2foodextended:dandelionteaitem",
+    "pamhc2foodextended:earlgreyteaitem",
+    "pamhc2foodextended:greenteaitem",
+    "pamhc2foodextended:rosepetalteaitem",
+    "pamhc2crops:hotteaitem",
+    "pamhc2crops:hotnettleteaitem"
+
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:frappe"},
+    {"item": "beveragecraft:boba_pearls"},
+    {"tag": "c:ices"}
+  ],
+  "result": {
+    "id": "beveragecraft:boba_frappe",
+    "count": 1
+  }
+}

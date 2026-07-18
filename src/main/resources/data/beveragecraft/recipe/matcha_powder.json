@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2crops:tealeafitem"},
+    {"item": "pamhc2foodcore:grinderitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:matcha_powder",
+    "count": 4
+  }
+}

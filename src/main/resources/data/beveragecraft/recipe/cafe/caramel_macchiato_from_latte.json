@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:latte"},
+    {"item": "beveragecraft:caramel_sauce"}
+  ],
+  "result": {
+    "id": "beveragecraft:caramel_macchiato",
+    "count": 1
+  }
+}

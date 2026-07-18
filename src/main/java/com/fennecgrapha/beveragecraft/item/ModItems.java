@@ -1,7 +1,6 @@
 package com.fennecgrapha.beveragecraft.item;
 
 import com.fennecgrapha.beveragecraft.BeverageCraft;
-import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
@@ -10,8 +9,8 @@ import net.minecraft.world.item.TooltipFlag;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import org.jetbrains.annotations.NotNull;
 
-import javax.swing.*;
 import java.util.List;
 
 public class ModItems {
@@ -34,6 +33,10 @@ public class ModItems {
     public static final DeferredItem<Item> CRUSHED_ICE = ITEMS.register("crushed_ice",()->new Item(
             new Item.Properties())
     );
+    public static final DeferredItem<Item> MATCHA_POWDER = ITEMS.register("matcha_powder",()->new Item(
+            new Item.Properties())
+    );
+
     public static final DeferredItem<Item> AQUAFABA = ITEMS.register("aquafaba", () -> new Item(
             new Item.Properties())
     );
@@ -57,8 +60,18 @@ public class ModItems {
     public static final DeferredItem<Item> HONEY_SYRUP = ITEMS.register("honey_syrup",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
     );
+    public static final DeferredItem<Item> CARAMEL_SAUCE = ITEMS.register("caramel_sauce",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
+    );
+    public static final DeferredItem<Item> CHOCOLATE_SAUCE = ITEMS.register("chocolate_sauce",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationModifier(1.0F).build()))
+    );
+
     public static final DeferredItem<Item> SODA = ITEMS.register("soda",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationModifier(0F).build()))
+    );
+    public static final DeferredItem<Item> BOBA_PEARLS = ITEMS.register("boba_pearls",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationModifier(-0.5F).build()))
     );
     public static final DeferredItem<Item> MOLASSES = ITEMS.register("molasses",()->new Item(
             new Item.Properties())
@@ -125,7 +138,7 @@ public class ModItems {
     public static final DeferredItem<Item> BITTERS = ITEMS.register("bitters",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationModifier(0F).build())) {
         @Override
-        public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+        public void appendHoverText(@NotNull ItemStack stack, @NotNull TooltipContext context, @NotNull List<Component> tooltipComponents, @NotNull TooltipFlag tooltipFlag) {
             tooltipComponents.add(Component.translatable("tooltip.beveragecraft.bitters.tooltip"));
             super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
         }
@@ -134,10 +147,18 @@ public class ModItems {
 
 
     //ALCOHOLS: MIXED DRINKS
-    static int cocktail_nutrition=12;
-    static float cocktail_saturation=1.4F;
+    static int cocktail_nutrition=19;
+    static float cocktail_saturation=1.5F;
     static FoodProperties cocktail_properties=new FoodProperties.Builder().nutrition(cocktail_nutrition).saturationModifier(cocktail_saturation).build();
-        //IBA LIST
+    static int cafe_nutrition=15;
+    static float cafe_saturation=1.7f;
+    static FoodProperties cafe_properties=new FoodProperties.Builder().nutrition(cafe_nutrition).saturationModifier(cafe_saturation).build();
+    static int boba_nutrition=17;
+    static float boba_saturation=1.7f;
+    static FoodProperties boba_properties=new FoodProperties.Builder().nutrition(boba_nutrition).saturationModifier(boba_saturation).build();
+
+
+    //IBA LIST
     public static final DeferredItem<Item> ALEXANDER = ITEMS.register("alexander",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
@@ -186,7 +207,6 @@ public class ModItems {
     public static final DeferredItem<Item> MANHATTAN = ITEMS.register("manhattan",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
-
     public static final DeferredItem<Item> MARTINEZ = ITEMS.register("martinez",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
@@ -343,7 +363,6 @@ public class ModItems {
     public static final DeferredItem<Item> ZOMBIE = ITEMS.register("zombie",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
-    //Untextured
     public static final DeferredItem<Item> BEES_KNEES = ITEMS.register("bees_knees",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
     );
@@ -445,6 +464,98 @@ public class ModItems {
     );
     public static final DeferredItem<Item> VENTO = ITEMS.register("vento",()->new ModCocktailIBAItem(
             new Item.Properties().food(cocktail_properties))
+    );
+
+
+    // CAFE
+
+    //Untextured
+    public static final DeferredItem<Item> LATTE = ITEMS.register("latte",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(13).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> MOCHA = ITEMS.register("mocha",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(13).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> FLAVORED_LATTE = ITEMS.register("flavored_latte",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> FLAVORED_MOCHA = ITEMS.register("flavored_mocha",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> CARAMEL_MACCHIATO = ITEMS.register("caramel_macchiato",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> FRAPPE = ITEMS.register("frappe",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> VIETNAMESE_COFFEE = ITEMS.register("vietnamese_coffee",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> CHAI_LATTE = ITEMS.register("chai_latte",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> MATCHA_TEA = ITEMS.register("matcha_tea",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> MATCHA_LATTE = ITEMS.register("matcha_latte",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(14).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> FLAVORED_MATCHA_LATTE = ITEMS.register("flavored_matcha_latte",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> THAI_TEA = ITEMS.register("thai_tea",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> LONDON_FOG_LATTE = ITEMS.register("london_fog_latte",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> HORCHATA = ITEMS.register("horchata",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+
+
+    public static final DeferredItem<Item> FRUITY_SODA = ITEMS.register("fruity_soda",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> SLUSHIE = ITEMS.register("slushie",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> POG_JUICE = ITEMS.register("pog_juice",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> NIX_SMOOTHIE = ITEMS.register("nix_smoothie",()->new Item(
+            new Item.Properties().food(cafe_properties)) {
+                @Override
+                public void appendHoverText(@NotNull ItemStack stack, @NotNull TooltipContext context, @NotNull List<Component> tooltipComponents, @NotNull TooltipFlag tooltipFlag) {
+                    tooltipComponents.add(Component.translatable("tooltip.beveragecraft.nix_smoothie.tooltip"));
+                    super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+                }
+            }
+    );
+    public static final DeferredItem<Item> MULLED_CIDER = ITEMS.register("mulled_cider",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+
+    public static final DeferredItem<Item> MILK_BOBA_TEA = ITEMS.register("milk_boba_tea",()->new Item(
+            new Item.Properties().food(boba_properties))
+    );
+    public static final DeferredItem<Item> FRUIT_BOBA_TEA = ITEMS.register("fruit_boba_tea",()->new Item(
+            new Item.Properties().food(boba_properties))
+    );
+    public static final DeferredItem<Item> THAI_BOBA_TEA = ITEMS.register("thai_boba_tea",()->new Item(
+            new Item.Properties().food(boba_properties))
+    );
+    public static final DeferredItem<Item> TARO_BOBA_TEA = ITEMS.register("taro_boba_tea",()->new Item(
+            new Item.Properties().food(boba_properties))
+    );
+    public static final DeferredItem<Item> BOBA_SLUSHIE = ITEMS.register("boba_slushie",()->new Item(
+            new Item.Properties().food(boba_properties))
+    );
+    public static final DeferredItem<Item> BOBA_COFFEE = ITEMS.register("boba_coffee",()->new Item(
+            new Item.Properties().food(boba_properties))
+    );
+    public static final DeferredItem<Item> BOBA_FRAPPE = ITEMS.register("boba_frappe",()->new Item(
+            new Item.Properties().food(boba_properties))
     );
     //Untextured and unreciped
 

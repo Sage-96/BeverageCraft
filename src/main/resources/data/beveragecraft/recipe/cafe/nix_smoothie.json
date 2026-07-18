@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:drink_mixer"},
+    {"item": "pamhc2crops:spinachitem"},
+    {"item": "pamhc2crops:oatsitem"},
+    {"tag": "c:yogurt"},
+    {"item": "pamhc2crops:strawberryitem"},
+    {"item": "beveragecraft:crushed_ice"},
+    {"item": "beveragecraft:honey_syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:nix_smoothie",
+    "count": 1
+  }
+}

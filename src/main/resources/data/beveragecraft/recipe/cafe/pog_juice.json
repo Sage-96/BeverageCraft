@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:passionfruitjuiceitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "pamhc2foodextended:guavajuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:pog_juice",
+    "count": 3
+  }
+}

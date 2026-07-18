@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2crops:tealeafitem"},
+    {"item": "pamhc2trees:orangeitem"},
+    {"tag": "c:milk"},
+    {"item": "beveragecraft:vanilla_syrup"},
+    {"item": "pamhc2foodcore:potitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:london_fog_latte",
+    "count": 1
+  }
+}

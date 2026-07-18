@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MIXER);
                         output.accept(ModItems.YEAST);
                         output.accept(ModItems.CRUSHED_ICE);
+                        output.accept(ModItems.MATCHA_POWDER);
                         output.accept(ModItems.AQUAFABA);
                         output.accept(ModItems.SYRUP);
                         output.accept(ModItems.VANILLA_SYRUP);
@@ -29,8 +30,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FRUIT_SYRUP);
                         output.accept(ModItems.SPICE_SYRUP);
                         output.accept(ModItems.HONEY_SYRUP);
+                        output.accept(ModItems.CARAMEL_SAUCE);
+                        output.accept(ModItems.CHOCOLATE_SAUCE);
                         output.accept(ModItems.MOLASSES);
                         output.accept(ModItems.SODA);
+                        output.accept(ModItems.BOBA_PEARLS);
                         output.accept(ModItems.BEER);
                         output.accept(ModItems.WINE);
                         output.accept(ModItems.SPARKLING_WINE);
@@ -154,6 +158,35 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.TOMMYS_MARGARITA);
                         output.accept(ModItems.TRINIDAD_SOUR);
                         output.accept(ModItems.VENTO);
+
+                        output.accept(ModItems.LATTE);
+                        output.accept(ModItems.MOCHA);
+                        output.accept(ModItems.FLAVORED_LATTE);
+                        output.accept(ModItems.FLAVORED_MOCHA);
+                        output.accept(ModItems.CARAMEL_MACCHIATO);
+                        output.accept(ModItems.FRAPPE);
+                        output.accept(ModItems.VIETNAMESE_COFFEE);
+                        output.accept(ModItems.CHAI_LATTE);
+                        output.accept(ModItems.MATCHA_TEA);
+                        output.accept(ModItems.MATCHA_LATTE);
+                        output.accept(ModItems.FLAVORED_MATCHA_LATTE);
+                        output.accept(ModItems.THAI_TEA);
+                        output.accept(ModItems.LONDON_FOG_LATTE);
+                        output.accept(ModItems.HORCHATA);
+                        output.accept(ModItems.FRUITY_SODA);
+                        output.accept(ModItems.SLUSHIE);
+                        output.accept(ModItems.POG_JUICE);
+                        output.accept(ModItems.NIX_SMOOTHIE);
+                        output.accept(ModItems.MULLED_CIDER);
+                        output.accept(ModItems.MILK_BOBA_TEA);
+                        output.accept(ModItems.FRUIT_BOBA_TEA);
+                        output.accept(ModItems.THAI_BOBA_TEA);
+                        output.accept(ModItems.TARO_BOBA_TEA);
+                        output.accept(ModItems.BOBA_SLUSHIE);
+                        output.accept(ModItems.BOBA_COFFEE);
+                        output.accept(ModItems.BOBA_FRAPPE);
+
+
                         //output.accept(ModItems.);
 
 

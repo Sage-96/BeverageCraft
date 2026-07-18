@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodcore:potitem"},
+    {"item": "pamhc2foodextended:applecideritem"},
+    {"item": "pamhc2crops:gingeritem"},
+    {"item": "pamhc2foodextended:groundnutmegitem"},
+    {"item": "pamhc2foodextended:groundcinnamonitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:mulled_cider",
+    "count": 1
+  }
+}

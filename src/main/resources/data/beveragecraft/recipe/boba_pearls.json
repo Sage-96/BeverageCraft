@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodcore:grinderitem"},
+    {"item": "pamhc2foodcore:mixingbowlitem"},
+    {"item": "pamhc2foodcore:potitem"},
+    {"item": "pamhc2crops:cassavaitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:boba_pearls",
+    "count": 16
+  }
+}

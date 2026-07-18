@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:espressoitem"},
+    {"item": "beveragecraft:chocolate_sauce"}
+  ],
+  "result": {
+    "id": "beveragecraft:mocha",
+    "count": 1
+  }
+}

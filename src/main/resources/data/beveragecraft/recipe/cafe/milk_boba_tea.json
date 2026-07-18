@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "beveragecraft:unsweet_unmilk_teas"},
+    {"tag": "c:milk"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:boba_pearls"},
+    {"tag": "c:ices"}
+  ],
+  "result": {
+    "id": "beveragecraft:milk_boba_tea",
+    "count": 1
+  }
+}

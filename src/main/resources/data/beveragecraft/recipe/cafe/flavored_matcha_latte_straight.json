@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    {"item": "beveragecraft:matcha_powder"},
+    {"tag": "c:milk"},
+    {"tag": "beveragecraft:syrup"},
+    {"item": "pamhc2foodcore:potitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:flavored_matcha_latte",
+    "count": 1
+  }
+}
