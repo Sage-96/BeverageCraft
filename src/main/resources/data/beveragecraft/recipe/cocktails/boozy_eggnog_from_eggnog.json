@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "beveragecraft:spirit"},
+    {"item": "pamhc2foodextended:eggnogitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:boozy_eggnog",
+    "count": 1
+  }
+}

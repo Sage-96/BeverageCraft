@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2crops:blackberryitem"},
+    {"item": "pamhc2trees:bananaitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:fruit_syrup"}
+  ],
+  "result": {
+    "id": "beveragecraft:rum_runner",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:peachitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "pamhc2trees:coconutitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:peachtree_punch",
+    "count": 2
+  }
+}

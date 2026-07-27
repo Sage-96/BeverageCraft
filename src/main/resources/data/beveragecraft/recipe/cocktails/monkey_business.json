@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:bananaitem"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:orgeat_syrup"},
+    {"item": "beveragecraft:spice_syrup"},
+    {"item": "beveragecraft:bitters"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:monkey_business",
+    "count": 2
+  }
+}

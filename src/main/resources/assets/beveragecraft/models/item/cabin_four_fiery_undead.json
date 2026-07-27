@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "beveragecraft:item/cabin_four_fiery_undead"
+  }
+}

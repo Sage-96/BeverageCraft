@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:brandy"},
+    {"item": "beveragecraft:whiskey"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "pamhc2trees:pomegranateitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:twelve_mile_limit",
+    "count": 1
+  }
+}

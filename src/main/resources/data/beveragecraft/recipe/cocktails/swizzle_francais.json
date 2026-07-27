@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "minecraft:sugar_cane"},
+    {"item": "pamhc2foodcore:juiceritem"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:groundnutmegitem"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:swizzle_francais",
+    "count": 1
+  }
+}

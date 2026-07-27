@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:orangeitem"},
+    {"item": "minecraft:light_blue_dye"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2trees:coconutitem"},
+    {"item": "beveragecraft:syrup"}
+
+
+  ],
+  "result": {
+    "id": "beveragecraft:blue_hawaiian",
+    "count": 1
+  }
+}

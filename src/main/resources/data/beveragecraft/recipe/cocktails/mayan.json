@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:tequila"},
+    {"item": "beveragecraft:coffee_liqueur"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:mayan",
+    "count": 1
+  }
+}

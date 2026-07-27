@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:peachjuiceitem"},
+    {"item": "pamhc2foodextended:grapefruitjuiceitem"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "beveragecraft:spice_syrup"},
+    {"item": "beveragecraft:bitters"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:rum_barrel",
+    "count": 2
+  }
+}

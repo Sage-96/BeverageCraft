@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:cherryitem"},
+    {"item": "beveragecraft:sake"}
+  ],
+  "result": {
+    "id": "beveragecraft:sakura_martini",
+    "count": 1
+  }
+}

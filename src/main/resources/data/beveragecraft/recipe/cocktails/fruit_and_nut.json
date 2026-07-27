@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2crops:raspberryitem"},
+    {"item": "beveragecraft:cocoa_liqueur"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"tag": "c:cream"}
+  ],
+  "result": {
+    "id": "beveragecraft:fruit_and_nut",
+    "count": 1
+  }
+}

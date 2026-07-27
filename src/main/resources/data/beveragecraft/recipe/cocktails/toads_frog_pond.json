@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "pamhc2crops:raspberryitem"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2crops:cantaloupeitem"},
+    {"item": "pamhc2trees:orangeitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "beveragecraft:boba_pearls"}
+  ],
+  "result": {
+    "id": "beveragecraft:toads_frog_pond",
+    "count": 2
+  }
+}

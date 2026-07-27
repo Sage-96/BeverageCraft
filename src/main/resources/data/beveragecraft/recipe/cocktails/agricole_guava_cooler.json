@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:guavajuiceitem"},
+    {"item": "beveragecraft:soda"},
+    {"item": "beveragecraft:bitters"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:agricole_guava_cooler",
+    "count": 1
+  }
+}

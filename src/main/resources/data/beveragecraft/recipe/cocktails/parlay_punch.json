@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2foodextended:cranberryjuiceitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:parlay_punch",
+    "count": 1
+  }
+}

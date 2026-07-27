@@ -7,7 +7,9 @@
     {"tag": "beveragecraft:spirit"},
     [
       {"tag": "minecraft:flowers"},
-      {"item": "pamhc2crops:spiceleafitem"}
+      {"item": "pamhc2crops:spiceleafitem"},
+      {"item": "pamhc2crops:gingeritem"},
+      {"item": "pamhc2trees:vanillaitem"}
     ],
     {"item": "minecraft:sugar"}
   ],

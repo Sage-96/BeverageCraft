@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:brandy"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:orgeat_syrup"},
+    {"item": "beveragecraft:fortified_wine"}
+  ],
+  "result": {
+    "id": "beveragecraft:fog_cutter",
+    "count": 1
+  }
+}

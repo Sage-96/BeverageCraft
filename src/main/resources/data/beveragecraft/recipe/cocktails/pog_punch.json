@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:pog_juice"}
+  ],
+  "result": {
+    "id": "beveragecraft:pog_punch",
+    "count": 1
+  }
+}

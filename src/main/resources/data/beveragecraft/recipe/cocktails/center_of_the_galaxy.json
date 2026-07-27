@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2crops:raspberryitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:honey_syrup"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:groundcinnamonitem"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:center_of_the_galaxy",
+    "count": 1
+  }
+}

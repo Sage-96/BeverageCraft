@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "c:water"},
+    {"item": "pamhc2crops:riceitem"},
+    {"item": "pamhc2crops:riceitem"},
+    {"item": "beveragecraft:yeast"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:sake",
+    "count": 2
+  }
+}

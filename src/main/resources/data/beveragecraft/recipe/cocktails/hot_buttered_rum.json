@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"tag": "c:water"},
+    {"item": "pamhc2foodcore:saucepanitem"},
+    {"item": "minecraft:sugar"},
+    {"item": "pamhc2foodcore:butteritem"},
+    {"item": "beveragecraft:molasses"},
+    {"item": "pamhc2foodextended:groundcinnamonitem"},
+    {"item": "pamhc2foodextended:groundnutmegitem"}
+
+
+
+  ],
+  "result": {
+    "id": "beveragecraft:hot_buttered_rum",
+    "count": 1
+  }
+}

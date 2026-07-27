@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "beveragecraft:sparkling_wine"},
+    {"item": "beveragecraft:soda"},
+    {"item": "pamhc2trees:lemonitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:st_germain_spritz",
+    "count": 1
+  }
+}

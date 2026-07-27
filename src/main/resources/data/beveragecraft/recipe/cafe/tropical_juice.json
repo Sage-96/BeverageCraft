@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:mangojuiceitem"},
+    {"item": "pamhc2foodextended:lycheejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:tropical_juice",
+    "count": 3
+  }
+}

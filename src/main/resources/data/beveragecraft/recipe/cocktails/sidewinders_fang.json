@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "pamhc2trees:passionfruititem"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:sidewinders_fang",
+    "count": 1
+  }
+}

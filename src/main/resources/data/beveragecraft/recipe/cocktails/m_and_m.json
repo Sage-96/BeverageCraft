@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:tequila"},
+    {"item": "beveragecraft:amaro"}
+  ],
+  "result": {
+    "id": "beveragecraft:m_and_m",
+    "count": 1
+  }
+}

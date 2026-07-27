@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:passionfruitjuiceitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "minecraft:fire_charge"}
+  ],
+  "result": {
+    "id": "beveragecraft:volcano_bowl",
+    "count": 2
+  }
+}

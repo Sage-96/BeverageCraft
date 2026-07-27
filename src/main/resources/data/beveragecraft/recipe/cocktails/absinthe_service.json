@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:absinthe"},
+    {"item": "minecraft:sugar"},
+    {"tag": "c:water"}
+  ],
+  "result": {
+    "id": "beveragecraft:absinthe_service",
+    "count": 1
+  }
+}

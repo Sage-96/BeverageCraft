@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:horchata"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:orangeitem"},
+    {"item": "beveragecraft:spice_syrup"},
+    {"item": "beveragecraft:pog_juice"}
+  ],
+  "result": {
+    "id": "beveragecraft:polynesian_pearl",
+    "count": 1
+  }
+}

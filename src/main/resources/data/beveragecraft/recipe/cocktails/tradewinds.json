@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:apricotitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "pamhc2trees:coconutitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:tradewinds",
+    "count": 1
+  }
+}

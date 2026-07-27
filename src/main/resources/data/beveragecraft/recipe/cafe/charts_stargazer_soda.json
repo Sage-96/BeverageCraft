@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "pamhc2crops:raspberryitem"},
+    {"item": "beveragecraft:orgeat_syrup"},
+    {"item": "beveragecraft:spice_syrup"},
+    {"item": "beveragecraft:soda"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:charts_stargazer_soda",
+    "count": 2
+  }
+}

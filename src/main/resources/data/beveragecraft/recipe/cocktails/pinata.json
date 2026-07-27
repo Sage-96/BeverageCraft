@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "pamhc2crops:gingeritem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:pinata",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag": "beveragecraft:spirit"},
+    {"item": "pamhc2foodcore:mixingbowlitem"},
+    [{"tag": "c:egg"},{"tag": "beveragecraft:cocktail_egg"}],
+    {"item": "pamhc2foodextended:groundnutmegitem"},
+    {"item": "pamhc2foodextended:groundcinnamonitem"},
+    {"tag": "c:cream"}
+  ],
+  "result": {
+    "id": "beveragecraft:boozy_eggnog",
+    "count": 1
+  }
+}

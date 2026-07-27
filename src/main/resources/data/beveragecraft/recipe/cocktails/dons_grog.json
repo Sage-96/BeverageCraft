@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2crops:blackberryitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "pamhc2trees:pomegranateitem"},
+    {"item": "beveragecraft:bitters"}
+  ],
+  "result": {
+    "id": "beveragecraft:dons_grog",
+    "count": 1
+  }
+}

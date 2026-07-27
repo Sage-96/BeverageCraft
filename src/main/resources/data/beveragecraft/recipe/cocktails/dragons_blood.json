@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:dragonfruititem"},
+    {"item": "pamhc2crops:strawberryitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:grapefruitjuiceitem"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:dragons_blood",
+    "count": 1
+  }
+}

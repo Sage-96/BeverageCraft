@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:absinthe"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2crops:cucumberitem"},
+    {"tag": "c:water"}
+  ],
+  "result": {
+    "id": "beveragecraft:green_beast",
+    "count": 1
+  }
+}

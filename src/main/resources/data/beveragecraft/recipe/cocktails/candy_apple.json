@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "minecraft:apple"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "pamhc2foodextended:applecideritem"},
+    {"item": "beveragecraft:caramel_sauce"}
+  ],
+  "result": {
+    "id": "beveragecraft:candy_apple",
+    "count": 1
+  }
+}

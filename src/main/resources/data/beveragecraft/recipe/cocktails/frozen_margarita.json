@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:drink_mixer"},
+    {"item": "beveragecraft:tequila"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:crushed_ice"}
+  ],
+  "result": {
+    "id": "beveragecraft:frozen_margarita",
+    "count": 1
+  }
+}

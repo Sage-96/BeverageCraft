@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2trees:coconutitem"},
+    {"item": "beveragecraft:coffee_liqueur"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:bahama_mama",
+    "count": 1
+  }
+}

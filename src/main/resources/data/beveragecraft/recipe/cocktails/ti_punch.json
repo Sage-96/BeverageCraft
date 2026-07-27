@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "minecraft:sugar_cane"},
+    {"item": "pamhc2foodcore:juiceritem"},
+    {"item": "pamhc2trees:limeitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:ti_punch",
+    "count": 1
+  }
+}

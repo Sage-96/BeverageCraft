@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:lycheeitem"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "beveragecraft:orgeat_syrup"},
+    {"item": "beveragecraft:bitters"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:lychee_punch",
+    "count": 2
+  }
+}

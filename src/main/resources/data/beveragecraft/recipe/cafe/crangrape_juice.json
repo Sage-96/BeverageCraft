@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "pamhc2foodextended:cranberryjuiceitem"},
+    {"item": "pamhc2foodextended:grapejuiceitem"},
+    {"item": "pamhc2foodcore:applejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:crangrape_juice",
+    "count": 3
+  }
+}

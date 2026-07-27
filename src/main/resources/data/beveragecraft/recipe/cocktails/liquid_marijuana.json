@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2crops:cantaloupeitem"},
+    {"item": "pamhc2trees:orangeitem"},
+    {"item": "pamhc2trees:coconutitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "beveragecraft:spice_syrup"},
+    {"item": "minecraft:lime_dye"}
+
+  ],
+  "result": {
+    "id": "beveragecraft:liquid_marijuana",
+    "count": 1
+  }
+}

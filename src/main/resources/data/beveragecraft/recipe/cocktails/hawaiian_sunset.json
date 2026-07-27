@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:vodka"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:orgeat_syrup"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "pamhc2trees:pomegranateitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:hawaiian_sunset",
+    "count": 1
+  }
+}

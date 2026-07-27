@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "beveragecraft:fruit_syrup"},
+    {"item": "pamhc2trees:passionfruititem"},
+    {"item": "pamhc2trees:pomegranateitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:hurricane",
+    "count": 1
+  }
+}

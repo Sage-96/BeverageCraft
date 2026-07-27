@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:whiskey"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"},
+    {"item": "beveragecraft:spice_syrup"},
+    {"item": "beveragecraft:bitters"},
+    {"item": "pamhc2trees:almonditem"}
+  ],
+  "result": {
+    "id": "beveragecraft:bumboat",
+    "count": 1
+  }
+}

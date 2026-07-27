@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:amaro"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:lemonitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:sanguinello",
+    "count": 1
+  }
+}

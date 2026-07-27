@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "pamhc2trees:limeitem"},
+    {"item": "pamhc2trees:lemonitem"},
+    {"item": "pamhc2crops:strawberryitem"},
+    {"item": "pamhc2crops:cucumberitem"},
+    {"item": "beveragecraft:soda"},
+    {"item": "pamhc2foodextended:lemonaideitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:pimms_cup",
+    "count": 1
+  }
+}

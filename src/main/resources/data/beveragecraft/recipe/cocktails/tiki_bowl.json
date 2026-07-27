@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"},
+    {"item": "beveragecraft:honey_syrup"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:bitters"}
+  ],
+  "result": {
+    "id": "beveragecraft:tiki_bowl",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:syrup"},
+    {"tag": "beveragecraft:cocktail_egg"}
+  ],
+  "result": {
+    "id": "beveragecraft:rum_flip",
+    "count": 1
+  }
+}

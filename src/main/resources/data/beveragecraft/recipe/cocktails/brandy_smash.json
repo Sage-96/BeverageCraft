@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:brandy"},
+    {"item": "pamhc2crops:spiceleafitem"},
+    {"tag": "beveragecraft:syrup"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:brandy_smash",
+    "count": 2
+  }
+}

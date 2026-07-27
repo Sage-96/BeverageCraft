@@ -84,6 +84,9 @@ public class ModItems {
     public static final DeferredItem<Item> WINE = ITEMS.register("wine",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.4F).build()))
     );
+    public static final DeferredItem<Item> SAKE = ITEMS.register("sake",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.4F).build()))
+    );
     public static final DeferredItem<Item> SPARKLING_WINE = ITEMS.register("sparkling_wine",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.4F).build()))
     );
@@ -151,10 +154,10 @@ public class ModItems {
     static float cocktail_saturation=1.5F;
     static FoodProperties cocktail_properties=new FoodProperties.Builder().nutrition(cocktail_nutrition).saturationModifier(cocktail_saturation).build();
     static int cafe_nutrition=15;
-    static float cafe_saturation=1.7f;
+    static float cafe_saturation=1.9f;
     static FoodProperties cafe_properties=new FoodProperties.Builder().nutrition(cafe_nutrition).saturationModifier(cafe_saturation).build();
     static int boba_nutrition=17;
-    static float boba_saturation=1.7f;
+    static float boba_saturation=1.9f;
     static FoodProperties boba_properties=new FoodProperties.Builder().nutrition(boba_nutrition).saturationModifier(boba_saturation).build();
 
 
@@ -466,10 +469,235 @@ public class ModItems {
             new Item.Properties().food(cocktail_properties))
     );
 
+    //NON-IBA COCKTAILS
+
+    //Untextured
+    //Untextured and unreciped
+    public static final DeferredItem<Item> MICHELADA = ITEMS.register("michelada",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MULLED_WINE = ITEMS.register("mulled_wine",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+
+    public static final DeferredItem<Item> FOG_CUTTER = ITEMS.register("fog_cutter",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> NAVY_GROG = ITEMS.register("navy_grog",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SCORPION_BOWL = ITEMS.register("scorpion_bowl",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> HUMUHUMUNUKUNUKUAPUAA = ITEMS.register("humuhumunukunukuapuaa",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> RUM_BARREL = ITEMS.register("rum_barrel",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> VOLCANO_BOWL = ITEMS.register("volcano_bowl",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> TIKI_BOWL = ITEMS.register("tiki_bowl",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> RUM_RUNNER = ITEMS.register("rum_runner",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> DOCTOR_FUNK = ITEMS.register("doctor_funk",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> HAWAIIAN_SUNSET = ITEMS.register("hawaiian_sunset",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SATURN = ITEMS.register("saturn",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> POLYNESIAN_PEARL = ITEMS.register("polynesian_pearl",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> LIQUID_MARIJUANA = ITEMS.register("liquid_marijuana",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> POG_PUNCH = ITEMS.register("pog_punch",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CANDY_APPLE = ITEMS.register("candy_apple",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> DRAGONS_BLOOD = ITEMS.register("dragons_blood",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> TRIUMVIRATE_PUNCH = ITEMS.register("triumvirate_punch",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BLUE_HAWAIIAN = ITEMS.register("blue_hawaiian",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BANANA_DAIQUIRI = ITEMS.register("banana_daiquiri",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> HURRICANE = ITEMS.register("hurricane",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SIDEWINDERS_FANG = ITEMS.register("sidewinders_fang",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> FISHBOWL = ITEMS.register("fishbowl",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BAHAMA_MAMA = ITEMS.register("bahama_mama",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> GREEN_SWIZZLE = ITEMS.register("green_swizzle",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> TIKI_MAX = ITEMS.register("tiki_max",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> RUM_GIGGLE = ITEMS.register("rum_giggle",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> HALEKULANI = ITEMS.register("halekulani",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> THUNDERBIRD = ITEMS.register("thunderbird",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PARLAY_PUNCH = ITEMS.register("parlay_punch",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> ROYAL_HAWAIIAN = ITEMS.register("royal_hawaiian",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> RUM_AND_GRAPEFRUIT = ITEMS.register("rum_and_grapefruit",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BRANDY_SMASH = ITEMS.register("brandy_smash",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> LYCHEE_SAKETINI = ITEMS.register("lychee_saketini",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+
+    public static final DeferredItem<Item> MAYAN = ITEMS.register("mayan",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CANTARITOS = ITEMS.register("cantaritos",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> ABSINTHE_SERVICE = ITEMS.register("absinthe_service",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> ST_GERMAIN_SPRITZ = ITEMS.register("st_germain_spritz",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PIMMS_CUP = ITEMS.register("pimms_cup",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PINEAPPLE_MOJITO = ITEMS.register("pineapple_mojito",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> M_AND_M = ITEMS.register("m_and_m",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> GREEN_BEAST = ITEMS.register("green_beast",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PEACHTREE_PUNCH = ITEMS.register("peachtree_punch",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> TRADEWINDS = ITEMS.register("tradewinds",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> MONKEY_BUSINESS = ITEMS.register("monkey_business",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> AGRICOLE_GUAVA_COOLER = ITEMS.register("agricole_guava_cooler",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PINATA = ITEMS.register("pinata",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BUMBOAT = ITEMS.register("bumboat",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> JAPANESE_PEAR = ITEMS.register("japanese_pear",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> FROZEN_MARGARITA = ITEMS.register("frozen_margarita",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SAKURA_MARTINI = ITEMS.register("sakura_martini",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> FRUIT_AND_NUT = ITEMS.register("fruit_and_nut",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> ECLIPSE = ITEMS.register("eclipse",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+
+    public static final DeferredItem<Item> COFFEE_GROG = ITEMS.register("coffee_grog",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> PEARL_DIVER = ITEMS.register("pearl_diver",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> HOT_BUTTERED_RUM = ITEMS.register("hot_buttered_rum",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BOOZY_EGGNOG = ITEMS.register("boozy_eggnog",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SANGUINELLO = ITEMS.register("sanguinello",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> DONS_GROG = ITEMS.register("dons_grog",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> TI_PUNCH = ITEMS.register("ti_punch",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CENTER_OF_THE_GALAXY = ITEMS.register("center_of_the_galaxy",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CALLALOO_COOLER = ITEMS.register("callaloo_cooler",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SWIZZLE_FRANCAIS = ITEMS.register("swizzle_francais",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> RUM_FLIP = ITEMS.register("rum_flip",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> TWELVE_MILE_LIMIT = ITEMS.register("twelve_mile_limit",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> BRANDY_SOUR = ITEMS.register("brandy_sour",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> LYCHEE_PUNCH = ITEMS.register("lychee_punch",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+
+
+
+    public static final DeferredItem<Item> CHARTS_ASTRONO_MAI_TAI = ITEMS.register("charts_astrono_mai_tai",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> SQUASHS_GIN_BASIL_SMASH = ITEMS.register("squashs_gin_basil_smash",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> TOADS_FROG_POND = ITEMS.register("toads_frog_pond",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
+    public static final DeferredItem<Item> CABIN_FOUR_FIERY_UNDEAD = ITEMS.register("cabin_four_fiery_undead",()->new Item(
+            new Item.Properties().food(cocktail_properties))
+    );
 
     // CAFE
 
-    //Untextured
     public static final DeferredItem<Item> LATTE = ITEMS.register("latte",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(13).saturationModifier(1.2F).build()))
     );
@@ -523,6 +751,15 @@ public class ModItems {
     public static final DeferredItem<Item> POG_JUICE = ITEMS.register("pog_juice",()->new Item(
             new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationModifier(1.2F).build()))
     );
+    public static final DeferredItem<Item> TROPICAL_JUICE = ITEMS.register("tropical_juice",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> CRANCHERRY_JUICE = ITEMS.register("crancherry_juice",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.2F).build()))
+    );
+    public static final DeferredItem<Item> CRANGRAPE_JUICE = ITEMS.register("crangrape_juice",()->new Item(
+            new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationModifier(1.2F).build()))
+    );
     public static final DeferredItem<Item> NIX_SMOOTHIE = ITEMS.register("nix_smoothie",()->new Item(
             new Item.Properties().food(cafe_properties)) {
                 @Override
@@ -532,10 +769,18 @@ public class ModItems {
                 }
             }
     );
+    public static final DeferredItem<Item> CHARTS_STARGAZER_SODA = ITEMS.register("charts_stargazer_soda",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> SQUASHS_BASIL_LEMONADE = ITEMS.register("squashs_basil_lemonade",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
+    public static final DeferredItem<Item> TOADS_SWIMMING_POOL_LEMONADE = ITEMS.register("toads_swimming_pool_lemonade",()->new Item(
+            new Item.Properties().food(cafe_properties))
+    );
     public static final DeferredItem<Item> MULLED_CIDER = ITEMS.register("mulled_cider",()->new Item(
             new Item.Properties().food(cafe_properties))
     );
-
     public static final DeferredItem<Item> MILK_BOBA_TEA = ITEMS.register("milk_boba_tea",()->new Item(
             new Item.Properties().food(boba_properties))
     );
@@ -557,7 +802,8 @@ public class ModItems {
     public static final DeferredItem<Item> BOBA_FRAPPE = ITEMS.register("boba_frappe",()->new Item(
             new Item.Properties().food(boba_properties))
     );
-    //Untextured and unreciped
+
+
 
 
     public static void register(IEventBus eventBus){

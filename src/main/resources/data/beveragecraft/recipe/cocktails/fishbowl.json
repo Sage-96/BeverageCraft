@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2trees:coconutitem"},
+    {"item": "beveragecraft:vodka"},
+    {"item": "pamhc2crops:raspberryitem"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:orangeitem"},
+    {"item": "pamhc2foodextended:lemonlimesodaitem"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:fishbowl",
+    "count": 1
+  }
+}

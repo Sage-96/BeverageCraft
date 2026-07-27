@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:gin"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:peachitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "pamhc2crops:spiceleafitem"},
+    {"item": "pamhc2foodextended:lemonjuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:squashs_gin_basil_smash",
+    "count": 1
+  }
+}

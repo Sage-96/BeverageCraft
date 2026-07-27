@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "beveragecraft:floral_liqueur"},
+    {"item": "beveragecraft:absinthe"},
+    {"item": "pamhc2foodextended:limejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:green_swizzle",
+    "count": 1
+  }
+}

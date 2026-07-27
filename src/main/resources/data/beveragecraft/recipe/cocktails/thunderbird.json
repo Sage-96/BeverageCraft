@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:whiskey"},
+    {"item": "beveragecraft:nut_liqueur"},
+    {"item": "pamhc2foodextended:pineapplejuiceitem"},
+    {"item": "pamhc2foodextended:orangejuiceitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:thunderbird",
+    "count": 1
+  }
+}

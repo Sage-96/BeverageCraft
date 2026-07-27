@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2foodextended:grapefruitsodaitem"},
+    {"item": "pamhc2trees:grapefruititem"}
+  ],
+  "result": {
+    "id": "beveragecraft:rum_and_grapefruit",
+    "count": 1
+  }
+}

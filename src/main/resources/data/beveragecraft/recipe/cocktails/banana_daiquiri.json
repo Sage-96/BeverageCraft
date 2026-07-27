@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:drink_mixer"},
+    {"item": "beveragecraft:rum"},
+    {"item": "beveragecraft:fruit_liqueur"},
+    {"item": "pamhc2trees:orangeitem"},
+    {"item": "pamhc2trees:bananaitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:crushed_ice"}
+  ],
+  "result": {
+    "id": "beveragecraft:banana_daiquiri",
+    "count": 1
+  }
+}

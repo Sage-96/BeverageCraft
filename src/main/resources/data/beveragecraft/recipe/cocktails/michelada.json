@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:beer"},
+    {"item": "pamhc2crops:tomatoitem"},
+    {"item": "pamhc2foodextended:hotsauceitem"},
+    {"item": "pamhc2crops:celeryitem"},
+    {"item": "pamhc2trees:oliveitem"}
+  ],
+  "result": {
+    "id": "beveragecraft:michelada",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "minecraft:stick"},
+    {"item": "pamhc2crops:spiceleafitem"},
+    {"item": "pamhc2foodextended:limejuiceitem"},
+    {"item": "pamhc2crops:pineappleitem"},
+    {"item": "beveragecraft:syrup"},
+    {"item": "beveragecraft:soda"}
+  ],
+  "result": {
+    "id": "beveragecraft:pineapple_mojito",
+    "count": 1
+  }
+}

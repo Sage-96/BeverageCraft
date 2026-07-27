@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "beveragecraft:rum"},
+    {"item": "pamhc2crops:hotcoffeeitem"},
+    {"item": "minecraft:sugar"},
+    {"item": "pamhc2foodcore:butteritem"},
+    {"item": "beveragecraft:honey_syrup"},
+    {"item": "pamhc2foodextended:groundcinnamonitem"},
+    {"item": "pamhc2foodextended:groundnutmegitem"},
+    {"item": "pamhc2trees:orangeitem"}
+
+
+
+  ],
+  "result": {
+    "id": "beveragecraft:coffee_grog",
+    "count": 1
+  }
+}
